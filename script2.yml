@@ -1,0 +1,9 @@
+---
+- name: automate client server
+  hosts: all
+
+  tasks:
+  - name: Run shell script
+    shell: nohup /home/ansadmin/script2.sh
+
+
